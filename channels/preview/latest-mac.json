@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "version": "0.18.0",
+  "releaseDate": "2026-10-22T18:46:16.195Z",
+  "prerelease": false,
+  "notes": "Bizzy 0.18.0 for Mac (Apple silicon)\n\n- Home: see all your colleagues and what they're doing, plus what needs you.\n- Approvals inbox across colleagues.\n- First-run walkthrough.\n- Connect apps (Notion, Linear, Atlassian, Airtable, Todoist, Calendly), or request anything else.\n- New colleagues, up to your plan's limit.\n- Calmer routine status: anything that didn't finish shows under Routines.\n- Automatic updates from now on: the app tells you when a new version is ready.\n\nNot signed yet: on first launch, right-click Bizzy and choose Open.",
+  "notesUrl": "https://github.com/33Audits/bizzy-releases/releases/tag/v0.18.0",
+  "commit": "5b05008e3dd19f33e6bc6cc7967f749aca0e5dd5",
+  "dirty": false,
+  "assets": {
+    "zip": {
+      "name": "Bizzy-0.18.0-mac-arm64.zip",
+      "url": "https://github.com/33Audits/bizzy-releases/releases/download/v0.18.0/Bizzy-0.18.0-mac-arm64.zip",
+      "sha256": "22a6cd8ef2bfe4e6127d24a3c2d5f6e803c8e378c3b16c1de1ad20b98f651cb5",
+      "size": 135953695
+    },
+    "dmg": {
+      "name": "Bizzy-0.18.0-mac-arm64.dmg",
+      "url": "https://github.com/33Audits/bizzy-releases/releases/download/v0.18.0/Bizzy-0.18.0-mac-arm64.dmg",
+      "sha256": "99bc8f5c1cb186c13c7428de6c66cd583ebb18f6f7fffa0b3415f075ff00c573",
+      "size": 135920100
+    }
+  }
+}
