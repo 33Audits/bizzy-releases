@@ -10,14 +10,17 @@ updates.
    Preview builds are under [all releases](https://github.com/33Audits/bizzy-releases/releases).
 2. Download `Bizzy-<version>-mac-arm64.dmg`.
 3. Open the DMG and drag **Bizzy** onto **Applications**.
-4. The first launch needs one extra step because Bizzy is not yet signed with an
-   Apple Developer ID:
-   - In Finder, open **Applications**, **right-click Bizzy → Open**, then
-     choose **Open** in the dialog. Or:
-   - If macOS says Bizzy "can't be opened", go to **System Settings → Privacy &
-     Security**, scroll to Security, and click **Open Anyway**. Or:
-   - In Terminal, run `xattr -dr com.apple.quarantine /Applications/Bizzy.app`
-     and then open Bizzy normally.
+4. The first launch needs one extra step because Bizzy is not yet notarized by
+   Apple:
+   - Open **Bizzy** once. macOS says it can't verify the developer; click
+     **Done**.
+   - Go to **System Settings → Privacy & Security**, scroll to **Security**, and
+     click **Open Anyway** next to Bizzy, then confirm.
+   - Or, in Terminal: `xattr -dr com.apple.quarantine /Applications/Bizzy.app`,
+     then open Bizzy normally.
+
+   If macOS ever says Bizzy "is damaged", you have a build older than 0.18.1:
+   download the latest one from the link above.
 
 After that, Bizzy opens like any other app.
 
