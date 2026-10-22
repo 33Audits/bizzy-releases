@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "version": "0.17.4-preview.4",
+  "releaseDate": "2026-10-22T16:19:49.206Z",
+  "prerelease": true,
+  "notes": "Updater end-to-end test release (same code as 0.17.3-preview.3).",
+  "notesUrl": "https://github.com/33Audits/bizzy-releases/releases/tag/v0.17.4-preview.4",
+  "commit": "811b2461948bc6098ec0aa7d805195afb8f823ef",
+  "dirty": true,
+  "assets": {
+    "zip": {
+      "name": "Bizzy-0.17.4-preview.4-mac-arm64.zip",
+      "url": "https://github.com/33Audits/bizzy-releases/releases/download/v0.17.4-preview.4/Bizzy-0.17.4-preview.4-mac-arm64.zip",
+      "sha256": "eff79cfdb875b51ad202dae43a6be92a9fcdb0440f022c8707fb9b8ed6ac9978",
+      "size": 135951446
+    },
+    "dmg": {
+      "name": "Bizzy-0.17.4-preview.4-mac-arm64.dmg",
+      "url": "https://github.com/33Audits/bizzy-releases/releases/download/v0.17.4-preview.4/Bizzy-0.17.4-preview.4-mac-arm64.dmg",
+      "sha256": "9bf917233362db57287d19c8c6f2e40eabd1b488e60f731c6fc026f999f14254",
+      "size": 135928860
+    }
+  }
+}
