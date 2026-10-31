@@ -1,24 +1,24 @@
 {
   "schemaVersion": 1,
-  "version": "0.18.1",
-  "releaseDate": "2026-10-22T22:10:31.719Z",
+  "version": "0.18.2",
+  "releaseDate": "2026-10-31T22:44:50.847Z",
   "prerelease": false,
-  "notes": "Bizzy 0.18.1 for Mac (Apple silicon)\n\n- Fixes \"Bizzy is damaged and can't be opened\" when installing from the download.\n\nFirst launch: open Bizzy once, then go to System Settings → Privacy & Security and click Open Anyway.",
-  "notesUrl": "https://github.com/33Audits/bizzy-releases/releases/tag/v0.18.1",
-  "commit": "c238f205aad33d4c35a36b6f8f8eec0f75481b20",
+  "notes": "Bizzy 0.18.2 for Mac (Apple silicon)\n\n- Fixes \"Bizzy couldn't start\" for people without an account: the broken local mode is hidden for now. The welcome screen offers Request access instead.\n- Earlier local-mode choices now return to the welcome screen.\n\nFirst launch: open Bizzy once, then System Settings → Privacy & Security → Open Anyway.",
+  "notesUrl": "https://github.com/33Audits/bizzy-releases/releases/tag/v0.18.2",
+  "commit": "22b1d9685c72d3a1c88ab989a1835ea6d7b22da3",
   "dirty": false,
   "assets": {
     "zip": {
-      "name": "Bizzy-0.18.1-mac-arm64.zip",
-      "url": "https://github.com/33Audits/bizzy-releases/releases/download/v0.18.1/Bizzy-0.18.1-mac-arm64.zip",
-      "sha256": "560d0e293b56228f062a2afb42aee52ab3d5bf1597eb1707be9edbe710f375d7",
-      "size": 134899367
+      "name": "Bizzy-0.18.2-mac-arm64.zip",
+      "url": "https://github.com/33Audits/bizzy-releases/releases/download/v0.18.2/Bizzy-0.18.2-mac-arm64.zip",
+      "sha256": "b08d5ada31cc83ddfeccdfda137b14191ae1aa0661cd8d21cc641ed8b78f2945",
+      "size": 134899950
     },
     "dmg": {
-      "name": "Bizzy-0.18.1-mac-arm64.dmg",
-      "url": "https://github.com/33Audits/bizzy-releases/releases/download/v0.18.1/Bizzy-0.18.1-mac-arm64.dmg",
-      "sha256": "9db51b0af142fbd48ac1d0c1fd0bbfa8736b94d29bf5c3886ed0424111ddd87a",
-      "size": 134889788
+      "name": "Bizzy-0.18.2-mac-arm64.dmg",
+      "url": "https://github.com/33Audits/bizzy-releases/releases/download/v0.18.2/Bizzy-0.18.2-mac-arm64.dmg",
+      "sha256": "42b771558459c5be1d98777a481c8f358ac7da00889a3e93e12cf05ee3f81a7f",
+      "size": 134878384
     }
   }
 }
